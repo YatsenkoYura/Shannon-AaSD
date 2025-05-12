@@ -3,4 +3,4 @@ set -e
 
 make all
 
-./tests
+./test_runner
