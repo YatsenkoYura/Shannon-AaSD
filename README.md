@@ -6,10 +6,13 @@
 ### сформулируется 2 запускных файла, encoder и decoder
 
 ## Кодирование файла
-### `./encoder input.bin output.shn dict.shn_dict`
+### `./main -e input.bin output.shn dict.shn_dict`
 
 ## Декодирование файла
-### `./decoder output.shn dict.shn_dict decoded.bin`
+### `./main -d output.shn dict.shn_dict decoded.bin`
+
+## Тесты
+### Тесты запускаются сами при запуске `run.sh`, но после компиляции будет файл `tests` который можно запустить самому
 
 ## Чистка
 ### `make clean`

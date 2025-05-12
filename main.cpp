@@ -6,10 +6,10 @@
 int main(int argc, char* argv[]) {
     std::string mode = argv[1];
     try {
-        if (mode == "encode") {
+        if (mode == "-e") {
             encodeFile(argv[2], argv[3], argv[4]);
         }
-        else if (mode == "decode") {
+        else if (mode == "-d") {
             decodeFile(argv[2], argv[3], argv[4]);
         }
         else {
