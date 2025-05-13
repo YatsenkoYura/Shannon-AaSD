@@ -5,9 +5,7 @@
 #include <vector>
 #include <cstdint>
 
-void decodeFile(const std::string& encodedPath,
-                const std::string& dictPath,
-                const std::string& outputPath) {
+void decodeFile(const std::string& encodedPath, const std::string& dictPath, const std::string& outputPath) {
 
     Dictionary dict;
     dict.readFromFile(dictPath);
